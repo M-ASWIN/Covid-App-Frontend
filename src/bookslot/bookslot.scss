@@ -1,0 +1,109 @@
+.bookslot{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        // height: 600px;
+        .left{
+            flex: 1;
+            display: flex;
+            .userdata{
+                // height: 100%;
+                // width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                // flex-direction: column;
+                justify-content: space-between;
+                // align-items: center;
+                // gap: 30px;
+                padding: 50px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+                .gender{
+                    font-size: small;
+                }
+
+                .address{
+                    resize: none;
+                    width: 100%;
+                    padding: 15px;
+                    font-size: 16px;
+                }
+            }
+        }
+        .right{
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            flex: 1;
+
+            .slots{
+                display: flex;
+                flex-direction: column;
+                // height: 100%;
+                align-items: center;
+                gap: 30px;
+                padding: 30px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+                .top{
+                    display: flex;
+                    align-items: center;
+                    gap: 50px;
+                    justify-content: space-between;
+                    .con {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        width: 250px;
+                        justify-content: space-between;
+                      }
+                      
+                      .select {
+                        width: 100%; /* or set a specific width */
+                      }
+                }
+            }
+
+            .remaining{
+                // height: 100%;
+                display: flex;
+                // flex-direction: column;
+                // justify-content: center;
+                // align-items: center;
+                gap: 50px;
+                padding: 40px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+                .group{
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 100px;
+                    
+                    .grp{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+
+                        .slt{
+                            display: flex;
+                            gap: 20px;
+                        }
+                    }
+                }
+                h1{
+                    // padding: 8px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
